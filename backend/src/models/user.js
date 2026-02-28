@@ -47,6 +47,7 @@ const userScehma = new mongoose.Schema({
     },
     about:{
         type : String,
+        default : "new user"
     },
     skills : {
         type : [String],
